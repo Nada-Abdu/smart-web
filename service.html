@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart | Service</title>
+    <link rel = "icon" type = "image/png" href ="img/small.png">
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" >
+   
+    <style>
+
+@font-face {
+    font-family:'ABeeZee-Regular';
+    src: url('css/ABeeZee-Regular.otf') format('wttfoff'),
+     url('css/ABeeZee-Regular.otf') format('truetype');
+  }
+
+  .carousel-caption h5{
+font-family:'ABeeZee-Regular';
+}
+
+.font{
+  font-family:'ABeeZee-Regular';
+}
+
+
+    </style>
+
+<script>
+  $(document).ready(function(){
+			$("#BIT").click(function(){
+			$("#CIT").show(300);
+			$("#Ccloud").hide(300);
+			$("#Cdigital").hide(300); 
+      $("#explor").hide(300); 
+      $("#myTopBtn").show(300); 
+      $("#BIT").css("background-color", "#eFeFeF");
+      $("#Bcloud").css("background-color", "#fff");
+      $("#Bdigital").css("background-color", "#fff");
+            
+			});
+    })
+</script> 
+<script>
+  $(document).ready(function(){
+			$("#Bcloud").click(function(){
+			$("#Ccloud").show(300);
+			$("#CIT").hide(300);
+			$("#Cdigital").hide(300);
+      $("#explor").hide(300); 
+      $("#myTopBtn").show(300); 
+      $("#BIT").css("background-color", "#fff");
+      $("#Bcloud").css("background-color", "#eFeFeF");
+      $("#Bdigital").css("background-color", "#fff");
+			});
+		})
+</script>
+<script>
+  $(document).ready(function(){
+			$("#Bdigital").click(function(){
+			$("#Cdigital").show(300);
+			$("#CIT").hide(300);
+			$("#Ccloud").hide(300);
+      $("#explor").hide(300);
+      $("#myTopBtn").show(300);  
+      $("#BIT").css("background-color", "#fff");
+      $("#Bcloud").css("background-color", "#fff");
+      $("#Bdigital").css("background-color", "#eFeFeF");
+			});
+		})
+</script>
+<script>
+  
+  $(document).ready(function(){
+			$("#show").click(function(){
+			$("#show").hide();
+      $("#hide").show();
+      $(".sec1-service").css("height", "270");
+      $(".title-sec1").css("color", "#b5243d");
+      $(".sec1-2-service").css("height", "150");
+     
+			});
+		});
+
+  $(document).ready(function(){
+			$("#hide").click(function(){
+			$("#show").show();
+      $("#hide").hide();
+      $(".sec1-service").css("height", "65");
+      $(".sec1-2-service").css("height", "65");
+      $(".title-sec1").css("color", "#343a40");
+			});
+    });
+</script>
+
+
+
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-bg" >
+    <div class="container">
+    
+     <a class="navbar-brand" href="index.html"><div class="img-logo-service "></div></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon" ></span>
+     </button>
+
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-3">
+              <a class="nav-link nav-item2-service " href="index.html">HOME </a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link  active-other-nav" href="service.html">SERVICES</a>
+            </li>
+            <li class="nav-item ml-3">
+                <a class="nav-link  nav-item2-service" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link  nav-item2-service" href="join.html">JOIN US</a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link  nav-item2-service" href="contacts.html">CONTACTS</a>
+              </li>
+          </ul>
+        </div>
+       </div> 
+    </nav>
+            <div class="bg-service">
+              <div class="container">
+              <h5 class="other-header2 font" data-aos="fade-down" id="top"> Our Services</h5>
+            </div>
+           </div>
+</header>
+
+<div class="container">
+  <div class=" service-border"   data-aos="fade-down">
+   
+    <div class="row dark-gray margain-service-content " >
+      <div class="col-md-4 btn-service text-center font " id="BIT"> <img src="img/ITtitle.svg" alt="" class="img-service1" >  Service</div>
+      <div class="col-md-4 btn-service text-center font "  id="Bcloud"><img src="img/cloudtitle.png" alt="" class="img-service23"> loud Service</div>
+      <div class="col-md-4 btn-service text-center font "  id="Bdigital"><img src="img/diditaltitle.svg" alt="" class="img-service23"> igital Service</div>
+    </div>
+ 
+    <div class="text-center service-content red" id="explor" data-aos="fade-up" >
+      <h3 ><img src="img/clicking.png" alt="" width="40" class="mb-3 mr-1" > Explore our services by one click </h3>
+    </div>
+    
+    <!--IT service-->
+    <div  id="CIT" >
+      <img src="img/ITlogo.svg" alt="" width="150" class="ml-4 mt-4"> 
+      <div class="service-content text-center" data-aos="fade-down">
+          <img src="img/weHahe.svg" alt="" width="40" class="mb-4 mr-2"> <h4 class="red d-inline" >We have four fundamental service </h4> 
+      </div>
+
+      <div class="service-content">
+        <div class="gray-title-service" data-aos="fade-up">
+          Managed Service Provider (MSP)
+        </div>
+        <div class="dark-gray text-center text-justify font-content" data-aos="fade-down">
+          IT Service optimize your business’ needs, which enables you to scale efficiently with more IT security. Our extensive onboarding process lays the foundation for our team to understand , your company’s processes, procedures, preferences, and work flow needs. also we tailor our systems, automation tools, and service delivery to directly improve your team’s productivity.
+        </div>
+        <div class="sub-title-other">
+          Services provided by MSP
+        </div>
+        <div id="accordion">
+         <div class="row text-center sec2-block">
+
+           <div class="col sec1-mt-res">
+            <div class="sec1-service sec1-cenetr">
+              <span>
+             <strong class="title-sec1" >IT Assets</strong> 
+              <div id="content1" class="collapse">
+                  <div class="dark-gray text-center text-justify font-content mt-3">
+                    Providing your company with computers, computer software, firmware, middleware, servers, workstations, routers, hubs, switches,  and all other information technology equipment. 
+                  </div> 
+              </div>
+             </span> 
+            </div>
+          </div>
+
+
+           <div class="col sec1-mt-res">
+            <div class="sec1-service sec1-cenetr">
+              <span>
+             <strong class="title-sec1"> Workstations Management</strong> 
+              <div id="content1" class="collapse">
+                  <div class="dark-gray text-center text-justify font-content mt-3">
+                    <div> <img src="img/list.svg" alt="" class="mr-1"> Get healthy , secure workstations. </div>
+                    <div class="mt-1"> <img src="img/list.svg" alt="" class="mr-1">  Monitor and protect your workstations.</div> 
+                  </div> 
+              </div>
+             </span> 
+            </div>
+          </div>
+
+
+          <div class="col sec1-mt-res">
+            <div class="sec1-service sec1-cenetr">
+              <span>
+             <strong class="title-sec1">IT Processes and Procedure</strong> 
+              <div id="content1" class="collapse">
+                  <div class="dark-gray text-center text-justify font-content mt-3">
+                    Giving a high level view of how to do your process, and offering step-by-step instructions on how to perform part of a process .
+                  </div> 
+              </div>
+             </span> 
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="row text-center mt-4 sec2-block">
+
+          
+        <div class="col">
+          <div class="sec1-service sec1-cenetr dark-gray">
+            <span>
+         <strong class="title-sec1"> Onsite/Remote Support </strong>
+            <div id="content1" class="collapse mt-3">
+               <div class=" text-center text-justify font-content mt-1"> 
+                 <strong class="red mt-5">Onsite Support:&nbsp;</strong>
+                In the problems that cannot be resolved remotely, we will send an professional to resolve problem</div> 
+               <div class=" text-center text-justify font-content mt-1"> <strong class="red mt-5">Remote Support:&nbsp;</strong>
+               To offering immediate response.</div>  
+            </div>
+          </span>
+       
+          </div>
+         </div>
+
+          <div class="col sec1-mt-res">
+            <div class="sec1-service sec1-cenetr ">
+              <span>
+             <strong class="title-sec1" >Networks</strong> 
+              <div id="content1" class="collapse">
+                  <div class="dark-gray text-center text-justify font-content mt-3">
+                    Include design, planning, deployment, security, analysis, reporting, remote monitoring, and support for the networks
+                  </div> 
+              </div>
+             </span> 
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="sec1-service sec1-cenetr">
+              <span>
+             <strong class="title-sec1">IT Consultation</strong> 
+              <div id="content1" class="collapse">
+                  <div class="dark-gray text-center text-justify font-content mt-3">
+                    Provides the highest quality IT Consultants with a deep understanding of the software development lifecycle, leading teams and executing projects on time and on budget.
+                  </div> 
+              </div>
+             </span> 
+            </div>
+          </div>
+
+       </div>
+
+       <div class="row text-center mt-4 sec2-block">
+
+       
+
+         <div class="col ">
+          <div class="sec1-service sec1-cenetr">
+            <span>
+           <strong class="title-sec1">Software</strong> 
+            <div id="content1" class="collapse">
+                <div class="dark-gray text-center text-justify font-content mt-3">
+                  Install all your softwares 
+                </div> 
+            </div>
+           </span> 
+          </div>
+        </div>
+        <div class="col "></div>
+        <div class="col "></div>
+
+      </div>
+          <div class="mt-4 text-center">
+            <a href="#content1" data-parent="#accordion" data-toggle="collapse" id="show" class="red"><strong>Show details</strong></a>
+            <a href="#content1" data-parent="#accordion" data-toggle="collapse" id="hide" style="display: none;" class="red"><strong>Hide details</strong></a>
+           </div>
+         </div>
+      </div>
+
+      <div class="text-center service-content ">
+        <img src="img/line.svg" alt="" width="100%">
+      </div>
+
+      <div class="service-content">
+        <div class="red-title-service">
+          Hardware and software procurements
+        </div>
+
+        <div class="dark-gray text-justify font-content ">
+          <div class="row ">
+            <div class="col-md-1 col-sm-12 img-sec2"> 
+              <img src="img/correct.svg" alt="" width="40">
+            </div>
+            <div class="col-md-11 text-center "> Correct solutions is here to help you with technology procurement that empowers your business. Make sure with us from investment in the right hardware and software with With provide a warranty and good utility </div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="text-center service-content ">
+        <img src="img/line.svg" alt="" width="100%">
+      </div>
+
+      <div class="service-content">
+        <div class="gray-title-service">
+          IT projects management
+        </div>
+      </div>
+
+      <div class="row margain-service-content sec3-block">
+        <div class="col-md-5 bg-img-sec3"></div>
+        <div class="col-md-7 bg-sec3 sec1-cenetr ">
+          <span class="text-center text-justify font-content mt-3  white "> 
+            Implementing and managing technology projects is greatly enhanced by the expertise and perspective of Smart’s highly-skilled IT consulting team. The end result will meet the business needs and the client service will exceed your expectations.
+          </span>
+        
+        </div>
+      </div>
+
+      <div class="text-center service-content ">
+        <img src="img/line.svg" alt="" width="100%">
+      </div>
+
+      <div class="service-content">
+        <div class="gray-title-service">
+          Startup support 
+        </div>
+
+        <div class="dark-gray text-center text-justify font-content mt-3">
+          Implementing and managing technology projects is greatly enhanced by the expertise and perspective of Smart’s highly-skilled IT consulting team. The end result will meet the business needs and the client service will exceed your expectations.
+        </div> 
+        <div class="hole-sec4-block mt-4">
+
+        <div class="row sec4-block">
+          <div class="col sec4-block-item sec4-block-center">
+            <img src="img/1.svg" alt="" width="30" class="mr-2">
+             Strategic IT Advice
+            
+          </div>
+          <div class="col sec4-block-item sec4-block-center">
+            <img src="img/2.svg" alt="" width="30" class="mr-2">
+            IT Management & Support
+            </div>
+          
+          <div class="col sec4-block-item sec4-block-center">
+            <img src="img/3.svg" alt="" width="30" class="mr-2">
+              Project Management
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="hole-sec4-block"> 
+        <div class="row  sec4-block">
+          <div class="col sec4-block-item sec4-block-center">
+            <img src="img/8.svg" alt="" width="30" class="mr-2">
+             Managed Cloud Hosting
+            </div>
+
+          <div class="col sec4-block-item sec4-block-center">
+            <img src="img/9.svg" alt="" width="30" class="mr-2">
+             Applications Management 
+            </div>
+          <div class="col sec4-block-item sec4-block-center">
+            <img src="img/7.svg" alt="" width="35" class="mr-2">
+              Managed Cloud Hosting
+            </div>
+          
+          
+        </div>
+      </div>
+
+
+      <div class="hole-sec4-block "> 
+        <div class="row sec4-block  ">
+          <div class="col sec4-block-item sec4-block-center">
+           <img src="img/4.svg" alt="" width="30" class="mr-2">
+           Backup and Recovery
+          </div>
+          <div class="col sec4-block-item sec4-block-center">
+           <img src="img/5.svg" alt="" width="30" class="mr-2">
+             24×7 Help Desk
+          </div>
+        
+          <div class="col sec4-block-item sec4-block-center">
+            <img src="img/6.svg" alt="" width="30" class="mr-2">
+            Complete IT Outsourcing
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+    </div>
+     
+
+    <!--cloud service-->
+    <div id="Ccloud">
+      <img src="img/cloudlogo.svg" alt="" width="150" class="ml-4 mt-4"> 
+      <div class="service-content text-center">
+        <h4 class="red font">Cloud Computing</h4>
+        <div class="dark-gray text-center text-justify font-content mt-4">
+          Cloud computing solutions enable your IT infrastructure to evolve as quickly as your business does Moving forward with cloud computing, either in a private, dedicated or public cloud, will bring your business many benefits that directly impact productivity and security.
+        </div>
+    </div>
+
+    <div class="service-content">
+      <div class="gray-title-service" >Software And Licensing</div>
+    
+
+    <div class="row  block-sec1-cloud">
+      <div class="col mt-5">
+        <img src="img/clouds1i1.svg" alt="" class="mb-cloud-sec1-img" width="170">
+        <div class="bg-sec1-cloud sec1-center">
+          <span class="dark-gray text-center text-justify font-content"> <h6 class="red">Microsoft office 365</h6>
+            Is a Software as a Service (SaaS) solution that includes Microsoft Office and other services, such as email and collaboration, from Microsoft’s cloud server. Microsoft Office 365 provides desktop functionalities and is available by subscription.
+          </span>
+        </div>
+      </div>
+      
+      <div class="col mt-5">
+        <img src="img/clouds1i2.svg" alt="" class="mb-cloud-sec1-img" width="170">
+        <div class="bg-sec1-cloud sec1-center">
+          <span class="dark-gray text-center text-justify font-content"> <h6 class="red">Snapcomms</h6>
+            The future of Internal Communications is shifting from output-focused to outcome-focused. No longer will ‘a quick all-staff email’ cut it. Includes features like, desktop alerts, tickers, wallpaper and more communication solutions.
+          </span>
+        </div>
+      </div>
+
+      <div class="col mt-5">
+        <img src="img/clouds1i3.svg" alt="" class="mb-cloud-sec1-img" width="180">
+        <div class="bg-sec1-cloud sec1-center">
+          <span class="dark-gray text-center text-justify font-content"> <h6 class="red">Freshworks software</h6>
+            Modernize IT, customer service and CRM for business needs. All of our products are ready to go, easy to use and offer great value to any kind of business.
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row block-sec1-cloud">
+      <div class="col mt-5">
+        <img src="img/clouds1i4.svg" alt="" class="mb-cloud-sec1-img" width="170">
+        <div class="bg-sec1-cloud sec1-center">
+          <span class="dark-gray text-center text-justify font-content"> <h6 class="red">Solarwinds</h6>
+            N-central was designed to give managed service providers (MSPs) enhanced abilities to see moredeeply into customer networks, know more about the security of customer endpoints, and do more to grow their own businesses by increasing technician efficiency.
+          </span>
+        </div>
+      </div>
+      
+      <div class="col mt-5">
+        <img src="img/clouds1i5.svg" alt="" class="mb-cloud-sec1-img" width="80">
+        <div class="bg-sec1-cloud sec1-center">
+          <span class="dark-gray text-center text-justify font-content"> <h6 class="red">AWS–Amazon web services</h6>
+            Amazon Web Services (AWS) provides cloud services for broad range of applications including compute, storage, databases, networking, analytics, machine learning and artificial intelligence (AI), Internet of Things (IoT), security, and application development, deployment, and management.
+          </span>
+        </div>
+      </div>
+
+      <div class="col mt-5">
+        <img src="img/clouds1i6.svg" alt="" class="mb-cloud-sec1-img" width="130">
+        <div class="bg-sec1-cloud sec1-center">
+          <span class="dark-gray text-center text-justify font-content"> <h6 class="red">M-FILES</h6>
+            M-Files is the intelligent information management platform that organizes content based on what it is, not where it's stored. You can even connect to existing network folders and systems to make them more intelligent with built-in AI to automatically categorize and protect information.
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row  block-sec1-cloud">
+      <div class="col mt-5">
+        <img src="img/clouds1i7.svg" alt="" class="mb-cloud-sec1-img" width="150">
+        <div class="bg-sec1-cloud sec1-center">
+          <span class="dark-gray text-center text-justify font-content"> <h6 class="red">Nakivo</h6>
+            N-central was designed to give managed service providers (MSPs) enhanced abilities to see moredeeply into customer networks, know more about the security of customer endpoints, and do more to grow their own businesses by increasing technician efficiency.
+          </span>
+        </div>
+      </div>
+      
+      <div class="col mt-5">
+        <img src="img/clouds1i8.svg" alt="" class="mb-cloud-sec1-img" width="160">
+        <div class="bg-sec1-cloud sec1-center">
+          <span class="dark-gray text-center text-justify font-content"> <h6 class="red">Foodics</h6>
+            Foodics is a cloud-based restaurant management system that runs on an iPad that manages sales, transactions, inventory, employee schedules, logistics, e-commerce and customer relationships. The Foodics iPad (POS) solution, menu, notifier, kitchen display system, customer display.
+          </span>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+
+
+    </div>
+
+    <div class="text-center service-content ">
+      <img src="img/line.svg" alt="" width="100%">
+    </div>
+
+    <div class="service-content ">
+      <div class="gray-title-service-cloud" > Benefits Of Cloud For Small Businesses</div>
+
+      
+        <div class="row sec4-block " >
+          <div class="col sec4-block-item text-center">
+           <img src="img/clouds2i1.svg" alt="" width="30" class="mr-2">
+           Cost reduction
+          </div>
+          <div class="col sec4-block-item text-center">
+           <img src="img/clouds2i2.svg" alt="" width="30" class="mr-2">
+           Reduce risk
+          </div>
+        
+          <div class="col sec4-block-item text-center">
+            <img src="img/clouds2i3.svg" alt="" width="30" class="mr-2">
+            Improve efficiency
+          </div>
+        </div>
+     
+
+    </div>
+
+  </div>
+
+
+
+    <!--digital service-->
+
+    <div id="Cdigital" >
+      <img src="img/digitallogo.svg" alt="" width="150" class="ml-4 mt-4"> 
+      <div class="service-content text-center">
+        <h4 class="red font">Digital Department</h4>
+        <div class="dark-gray text-center text-justify font-content mt-4">
+          Established as a full-service digital division. We work closely with each other and with our clients to deliver results that help businesses thrive and grow. We merge the creativity and the analytical to weave the web experience that delights your users.
+        </div>
+       
+        <div class="dark-gray text-center text-justify font-content mt-3">
+          Our digital division not just <strong class="red">devlopment team </strong>  but we have <strong class="red">creative team</strong> covers everything in marketing and corporate identity, , and also we have <strong class="red">social media</strong> experts strategists.
+        </div>
+      </div>
+      
+      <div class="gray-section-service">
+        <div class="service-content">
+          <div class="gray-title" style="margin-bottom: 35px;">Digital</div>
+        
+        <div class="dark-gray text-center text-justify font-content ">
+        Our Digital team is driven by their love and passion for technology, latest digital trends and challenge and ensures to deliver your web, mobile and interactive projects in abidance with the latest in W3C and responsive standards and solutions.
+        </div>
+        
+        <div class="row block-sec1-digital">
+          <div class="col mt-5">
+            <div class="bg-sec1-degetal sec1-center">
+              <img src="img/digitals1i1.svg" alt="" class="sec1-digital-icons" >
+              <span class="text-center"> Web and mobile devlopment and design</span>
+            </div>
+          </div>
+          <div class="col mt-5">
+            <div class="bg-sec1-degetal sec1-center">
+              <img src="img/digitals1i2.svg" alt="" class="sec1-digital-icons ">
+              <span class="text-center"> Search Engine Optimization &  Marketing </span> 
+            </div>
+          </div>
+        </div>
+
+        <div class="row block-sec1-digital">
+          <div class="col mt-5">
+            <div class="bg-sec1-degetal sec1-center">
+              <img src="img/digitals1i3.svg" alt="" class="sec1-digital-icons" >
+              <span class="text-center"> Digital marketing , maintenance and updates</span>
+            </div>
+          </div>
+          <div class="col mt-5">
+            <div class="bg-sec1-degetal sec1-center">
+              <img src="img/digitals1i4.svg" alt="" class="sec1-digital-icons ">
+              <span class="text-center"> CMS, e-commerce and portal developments</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row block-sec1-digital">
+          <div class="col mt-5">
+            <div class="bg-sec1-degetal sec1-center">
+              <img src="img/digitals1i5.svg" alt="" class="sec1-digital-icons" >
+              <span class="text-center"> Domain and hosting management</span>
+            </div>
+          </div>
+          <div class="col mt-5">
+            <div class="bg-sec1-degetal sec1-center">
+              <img src="img/digitals1i6.svg" alt="" class="sec1-digital-icons ">
+              <span class="text-center" > Testing and data analysis</span>
+            </div>
+          </div>
+        </div>
+
+       </div>
+    </div>
+
+  
+
+    <div class="service-content text-center">
+      <div class="gray-title" style="margin-bottom: 35px;">Social</div>
+        
+      <div class="dark-gray text-center text-justify font-content ">
+        Our social media experts were online Instagramming, Facebooking, tweeting, networking and blogging. Nonetheless, they are professional social media strategists, managers and developers mad about content generation, app creation, online marketing and communication.
+      </div>
+        
+        <div class="row mb-5 block-sec2-digital" >
+         <div class="col mt-5 ">
+          <div >
+            <img src="img/digitals2i1.svg" alt="" class="sec2-digital-icon">
+          </div>
+          <div class="bg-sec2-degetal sec1-center">
+            <span>Managing social media accounts</span>
+          </div>
+         </div>
+
+         <div class="col  mt-5">
+          <div>
+            <img src="img/digitals2i2.svg" alt="" class="sec2-digital-icon">
+          </div>
+          <div class="bg-sec2-degetal sec1-center">
+            <span>Content Management</span>
+          </div>
+         </div>
+
+         <div class="col  mt-5">
+          <div>
+            <img src="img/digitals2i3.svg" alt="" class="sec2-digital-icon">
+          </div>
+          <div class="bg-sec2-degetal sec1-center">
+            <span>Digital Advertisements</span>
+          </div>
+         </div>
+        </div>
+    </div>
+
+    
+
+    <div class="gray-section-service " >
+      <div class="service-content">
+        <div class="gray-title" style="margin-bottom: 35px;">Creative</div>
+        
+      <div class="dark-gray text-center text-justify font-content mb-2">
+        Our Creative team covers everything ATL, BTL from advertising campaigns, direct marketing, packaging, POS, corporate identity, brand positioning and communication, TV, radio and print but that's not all!
+      </div>
+
+      <div class="mt-5  sec3-digital-center  block-sec3-digital" >
+
+        <div class=" bg1-sec3-degetal sec3-digital-center ">
+         <span>Logo develops</span> 
+        </div>
+
+        <img src="img/lineSec3.svg" alt="" class="sec3-line-digital ">
+        <img src="img/line2Sec3.svg" alt="" class=" sec3-digital-center sec3-line2-digital ">
+        
+
+        <div class="bg2-sec3-degetal sec3-digital-center">
+         <span>Brand analysis</span> 
+        </div>
+
+        <img src="img/lineSec3.svg" alt=""  class="sec3-line-digital ">
+        <img src="img/line2Sec3.svg" alt="" class="sec3-digital-center sec3-line2-digital">
+
+        <div class="bg3-sec3-degetal sec3-digital-center ">
+         <span>Copy writing & editing</span> 
+        </div>
+
+        <img src="img/lineSec3.svg" alt="" class="sec3-line-digital ">
+        <img src="img/line2Sec3.svg" alt="" class="sec3-digital-center sec3-line2-digital">
+
+        <div class="bg4-sec3-degetal sec3-digital-center">
+         <span>Graphic design</span> 
+        </div>
+    
+      </div>
+
+
+      </div>
+    </div>
+
+   </div>
+   
+  
+
+</div>
+
+</div>
+<a href="#top" id="myTopBtn" style="display: none;" ><img src="img/toparrow.svg" alt="" id="myTopicon" width="25" style="margin-left:13px; margin-top: 15px;"></a>
+
+
+
+<footer>
+  <p>All rights reserved by SMART - Technology Solutions © 2019</p>
+  <div>
+    <a href="https://www.facebook.com/SmartTechSA"><i class="icon mr-1"><img src="img/facebook.svg" class="icon-img"/></i></a>
+    <a href="https://www.instagram.com/SmartTechSA/"><i class="icon mr-1"><img src="img/instagram.png"  class="icon-img"/></i></a>
+    <a href="https://www.linkedin.com/authwall?trk=ripf&trkInfo=AQEFVL1KRvXz6wAAAXMjYzT4TRfBQBFHyv1xLaGqcg5359mMT20-jopl-MvZilRg4BJ6Anua4lmJsBKxWYLmLetRhY9CTb3SYCnT5N8uFHMkcFazbiiMjER6RL5JU5qdUJzkL2A=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsmart-technology-solutions%2F"><i class="icon mr-1"><img src="img/linkedin.png"  class="icon-img"/></i></a>
+    <a href="https://www.youtube.com/channel/UCtVOMaeUXSLB_NNB5laNAtw"><i class="icon mr-1"><img src="img/youtube.png"  class="icon-img"/></i></a>
+    <a href="https://www.snapchat.com/add/smarttechsa"><i class="icon mr-1"><img src="img/snapchat.png"  class="icon-img"/></i></a>
+    <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fsmart.sa%2F&ref_src=twsrc%5Etfw&screen_name=SmartTechSA&tw_p=followbutton"><i class="icon"><img src="img/twitter.png"  class="icon-img"/></i></a>
+
+  </div>
+</footer>
+
+
+
+
+    <!-- JS, Popper.js, and jQuery -->
+
+
+
+
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/counter.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 130,
+    delay: 10,
+    duration: 500
+  });
+</script>
+
+<script>
+  $(window).scroll(function(){
+    $('.nav-bg').toggleClass('scrolled', $(this).scrollTop()>50)
+  })
+</script> 
+<script>
+  $(window).scroll(function(){
+    $('.navbar-nav.ml-auto').toggleClass('scrolled', $(this).scrollTop()>50)
+  })
+</script> 
+<script>
+  $(window).scroll(function(){
+    $('.nav-item2-service').toggleClass('scrolled', $(this).scrollTop()>50)
+  })
+</script>
+
+
+
+
+
+</body>
+</html>
